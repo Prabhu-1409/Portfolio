@@ -1,0 +1,211 @@
+.about{
+    padding-bottom: 20px;
+}
+.education-container0{
+    margin-bottom: 5%;
+}
+.education-container{
+    padding-left: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.year{
+    translate: 0 20px 0;
+    font-weight: 400;
+    font-size: small;
+    color: gray;
+}
+.graduate{
+    translate: 0 -20px 0;
+    font-weight: 400;
+    font-size: small;
+    color: gray;
+}
+
+.education-box{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #292929;
+}
+.align-text{
+    padding-left:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.institute-name{
+    padding-left: 15px;
+}
+.skill-box{
+    translate: 0 -10px 0;
+    height: fit-content;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.skills{
+    height: fit-content;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    display: block;
+    row-gap: 0;
+}
+.skill-name{
+    font-size: medium;
+    padding-left: 20px;
+    display: flex;
+    color: white;
+}
+.bar{
+    height: 3px;
+    background: white;
+    overflow: hidden;
+    display: block; 
+    transition: all ease-in 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar .java{
+    background: #52ECFA;
+    float: left;
+    height: 5px;
+}
+.java{
+    width: 80%;
+    animation: java 3s;
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.bar .python{
+    background: #FA52E5;
+    float: left;
+    height: 5px;
+}
+.python{
+    width: 30%;
+    animation: python 3s;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }100%{
+        width: 30%;
+    }
+}
+.bar .mern{
+    background:#FA526E;
+    float: left;
+    height: 5px;
+}
+.mern{
+    width: 80%;
+    animation: mern 3s;
+}
+@keyframes mern{
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.bar .mysql{
+    background:#52FADB;
+    float: left;
+    height: 5px;
+}
+.mysql{
+    width: 40%;
+    animation: mysql 3s;
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }100%{
+        width: 40%;
+    }
+}
+.bar .ml{
+    background:#FAD052;
+    float: left;
+    height: 5px;
+}
+.ml{
+    width: 35%;
+    animation: ml 3s;
+}
+@keyframes ml{
+    0%{
+        width: 0%;
+    }100%{
+        width: 35%;
+    }
+}
+.bar .c{
+    background:#52FA64;
+    float: left;
+    height: 5px;
+}
+.c{
+    width: 25%;
+    animation: c 3s;
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }100%{
+        width: 25%;
+    }
+}
+.bar .dsa{
+    background:#12CBBA;
+    float: left;
+    height: 5px;
+}
+.dsa{
+    width: 25%;
+    animation: dsa 3s;
+}
+@keyframes dsa {
+    0%{
+        width: 0%;
+    }100%{
+        width: 25%;
+    }
+}
+.bar .aws{
+    background:#A088CD;
+    float: left;
+    height: 5px;
+}
+.aws{
+    width: 10%;
+    animation: aws 3s;
+}
+@keyframes aws {
+    0%{
+        width: 0%;
+    }100%{
+        width: 10%;
+    }
+}
+@media (width <=600px){
+    .education-container0{
+        margin-top: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+    }
+}
